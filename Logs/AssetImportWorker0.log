@@ -15,7 +15,7 @@ C:/Users/nicea/Documents/Works/Unity/test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57523
+50871
 Successfully changed project path to: C:/Users/nicea/Documents/Works/Unity/test
 C:/Users/nicea/Documents/Works/Unity/test
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/nicea/Documents/Works/Unity/test
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27888] Host "[IP] 172.16.1.79 [Port] 0 [Flags] 2 [Guid] 509347546 [EditorId] 509347546 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-42U4S62) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [36052] Host "[IP] 172.16.1.79 [Port] 0 [Flags] 2 [Guid] 1540515644 [EditorId] 1540515644 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-42U4S62) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27888] Host "[IP] 172.16.1.79 [Port] 0 [Flags] 2 [Guid] 509347546 [EditorId] 509347546 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-42U4S62) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [36052] Host "[IP] 172.16.1.79 [Port] 0 [Flags] 2 [Guid] 1540515644 [EditorId] 1540515644 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-42U4S62) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 90.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,79 +67,79 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004825 seconds.
+Registered in 0.003721 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.505 seconds
+- Completed reload, in  0.450 seconds
 Domain Reload Profiling:
-	ReloadAssembly (505ms)
+	ReloadAssembly (450ms)
 		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (366ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (317ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (95ms)
+			SetupTypeCache (76ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (211ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (189ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
+				RefreshPlugins (66ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004960 seconds.
+Registered in 0.004453 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\nicea\Documents\Works\Unity\test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\nicea\Documents\Works\Unity\test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
+- Completed reload, in  0.885 seconds
 Domain Reload Profiling:
-	ReloadAssembly (952ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (886ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (783ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (720ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (227ms)
+			SetupTypeCache (207ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (399ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (382ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (176ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -148,8 +148,8 @@ Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4705 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 28 unused Assets / (348.0 KB). Loaded Objects now: 5169.
-Memory consumption went from 189.8 MB to 189.4 MB.
-Total: 2.762800 ms (FindLiveObjects: 0.327100 ms CreateObjectMapping: 0.149400 ms MarkObjects: 2.164200 ms  DeleteObjects: 0.121200 ms)
+Memory consumption went from 189.8 MB to 189.5 MB.
+Total: 2.838900 ms (FindLiveObjects: 0.326700 ms CreateObjectMapping: 0.124000 ms MarkObjects: 2.257000 ms  DeleteObjects: 0.130300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,3 +162,582 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 110247.374437 seconds.
+  path: Assets/MyTest/Advance
+  artifactKey: Guid(835d66c73583d04478eea1ed1e009302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance using Guid(835d66c73583d04478eea1ed1e009302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa47c50e18258198b6f08f93aafbfbe') in 0.012388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.363119 seconds.
+  path: Assets/MyTest/Advance/MyTestScene.unity
+  artifactKey: Guid(5ef7d46f7e66a8842ae85d50c65f89ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/MyTestScene.unity using Guid(5ef7d46f7e66a8842ae85d50c65f89ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a33cbc68987fc1fda87ec54a44ff00') in 0.005376 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004608 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\nicea\Documents\Works\Unity\test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\nicea\Documents\Works\Unity\test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 84.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Domain Reload Profiling:
+	ReloadAssembly (997ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (782ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.6 MB). Loaded Objects now: 5730.
+Memory consumption went from 200.8 MB to 199.2 MB.
+Total: 3.058100 ms (FindLiveObjects: 0.351500 ms CreateObjectMapping: 0.234200 ms MarkObjects: 1.961400 ms  DeleteObjects: 0.509600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 118.752174 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aca67d07d9cbb923f8ae8e0110aa9d0') in 0.294440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.294871 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8b42b9558028afdc3efc04b0110a5a') in 0.112792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.121746 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eaf300facaa0d456495d3eed661629a') in 0.001997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.581193 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9c448b4056b1a62ef848997df9eb2c') in 0.761174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.819609 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcacb368293e230a9e151b2cf0111089') in 0.665173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.554263 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83bea85c2a2df796e5a313c922e6751') in 0.911234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.466530 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858fa96a88efba9a15e69d3518db3b29') in 0.986549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.252766 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5f9092fadfdcf0ca228e0bce27dca5') in 0.711871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.601536 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11fb0cdce5e1689c6cf87897e955ecbe') in 0.713768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.760128 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5104bde986ac3ef3a2e9ed9816eda317') in 0.725401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.843896 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9a07860bb91750094489a36495c205') in 0.764512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.172957 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6219a649e302d64f1bbebe81b465cb') in 0.762390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.833319 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25452a743f2e4bac3b1f0f9ffeda5868') in 0.849548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.706639 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd93214acbbf6b0ce596f63f10f1f65') in 1.012118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.648829 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b14b7e7a5dcc5137028b042f45a7ed0') in 0.903823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.266180 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3758a7ed1076f6e262e03b2d68e9dd9') in 0.824135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.652413 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbadd41d458eb5915fcea69fe930157') in 0.979475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.730124 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230c995370c3d1711f044ce2583feeba') in 0.635192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.293724 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb074419c66f29461a250e48baef8364') in 0.659644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.682663 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598cce67a9b00dcc49418d9e65cc9252') in 0.647188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.122611 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3e773bbdccb0fe7d6b95928be0ced2') in 0.645075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.051532 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565f2615256a785fe4a3b30c77eb631a') in 0.621776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.207430 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f5c54c6b6521216533311eca031f07') in 0.614912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.292540 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17047ceed79faa37263e6588dc0ff704') in 0.616629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.580104 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5f3ab56f0b50722c318a9c8654cff1') in 0.655472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.052012 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76164a755266696b6c6be218614ebbf8') in 0.627461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.840242 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9511f440b7846cbfbbc32884a7efc25') in 0.668952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.056212 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1a0151edd83af92293dbbcd5f50274') in 0.972458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.159829 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1105a1dcb8603a85523bb1d59a46721a') in 0.647855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.074185 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8b0d2ef9e762e8a792e6261198cfa4') in 0.617015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.252574 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0629d07711a419cc7573b85c06741d94') in 1.003218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.487838 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46928c9c001fc9fdcc79998315b3d51c') in 0.635068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.367725 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb73dbe2eefe506f6997d8aedd8ea79') in 0.655349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.628279 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe0677a55f36578922ea4cf17df0d88') in 0.648876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.650307 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae24287c166066f4253879279d1f4d96') in 0.638031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.929117 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681655dc4e5baff2aeb9c590fe77f177') in 0.644036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.210757 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be4eb4de4a9190e49a93d118088fcd1') in 0.641886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.776807 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb9198dd39951edf7b416d1a143f091') in 0.653926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.414990 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af3090f28a8b3dc41d5d9cb553b7b52') in 0.980950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.802340 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cb6c9475e097d14e7e9365be2cb9c2') in 0.652645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.456071 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabd5e1d3bcc440bf23579ddc3440be0') in 0.642940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.790078 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b65d6a39b8b6cafcaf5a8420b4de3d') in 0.631516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.136094 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5112e6b088c8b588c3b1dec7fe3c44') in 0.989402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.527139 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f93991cb93de4e9902c4dc38a153c38') in 0.717763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.298496 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a7818eb06ee4edc682aac1a0b9d3b2') in 0.649389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.081703 seconds.
+  path: Assets/MyTest/Advance/MyTestScene.unity
+  artifactKey: Guid(5ef7d46f7e66a8842ae85d50c65f89ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/MyTestScene.unity using Guid(5ef7d46f7e66a8842ae85d50c65f89ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20776f3d2de71b1dc964292b7100ed38') in 0.005829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.974714 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4440da5959fff3a54226651fe986ee') in 0.917900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.133706 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7762b500bcbce32bf69eca663e5711') in 0.650020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.303939 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbaeaa547fd29230bb1866cd04310da') in 1.035948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.350340 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb97f2b0ca6a3ab75baac6a5430ae28') in 1.050246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.752904 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15866478dacfe69d65f85a6dc4624a72') in 0.787828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.976642 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdca4d906d3a3c1fcb4b2d29f4a9134') in 1.049200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.777304 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbcff1b003cb19cb2b2487fad8c731c') in 0.872639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.015642 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6b1b6575f03e86f171044ce67efe11') in 0.908613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.903476 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdeab68c03e3e8fe2cc53835ce7ab90') in 1.009981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.885374 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dabcc44ec34d1f93dec88e030343c1') in 1.089209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.418656 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c787a40af40f52794b91690c95d29875') in 1.116148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.776483 seconds.
+  path: Assets/MyTest/Advance/StanderdLit.shadergraph
+  artifactKey: Guid(7f4cd4b9c4120fa4ca488d17a08a3352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/StanderdLit.shadergraph using Guid(7f4cd4b9c4120fa4ca488d17a08a3352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccd40d156db00f557b177679e3855e6') in 0.008625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 130.651741 seconds.
+  path: Assets/MyTest/Advance/StanderdLit.shadergraph
+  artifactKey: Guid(7f4cd4b9c4120fa4ca488d17a08a3352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/StanderdLit.shadergraph using Guid(7f4cd4b9c4120fa4ca488d17a08a3352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfe3569f8d003846d0202abda3f2db1') in 0.005769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.355993 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d87071a7059e26e6b5eb2202b6c7f6') in 1.090518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.623693 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97c486fd5f3df9fd88bb370890d1005') in 0.155257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.229784 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e630945816fc66c013b637637ec0cf79') in 1.154432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.655799 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24472d5b9af51439e23218f7053bf599') in 0.948268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.060256 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc7fdfebc280d5782ab8e0fd1cb728c') in 1.189097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 186.214292 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a745d8cbf486a93b46c7b876d2d16a2a') in 1.217622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.442441 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9849d9ae35461b3bb2bb7a2fb3198b82') in 1.234781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.104598 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af8dd1ca49c11369ec72c0523bc21e8') in 1.223804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.203987 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88549de858002e2e41349297c53b269b') in 0.829805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.744879 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66281457805586bbbc39a838b8d5b94') in 0.836391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.555433 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68579d9ac188577f5d0fff1937263910') in 0.862384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.258294 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bac2f0fc9876ee39beaebcf19cb4fb3') in 0.901928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.626601 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ba8103ec267b404a9c4b00d2b6ccc2') in 1.346423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.392750 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adbeb390759ba87098db7510f5e48e7') in 1.033910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.111680 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803a04903dd598713c424ef3145ae885') in 0.903732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.221446 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f77be03480c1311c46963853563ebee') in 0.888420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.584327 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cfe72a077be37baef3828dc1c5ee3d') in 0.872457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.196939 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf8dca60ba9700718beba1823d9ac6f') in 0.879572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.208073 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cad0939cc8617d8a3c9b486b17babb') in 0.838305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.192227 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f80dfef36cbf87ac99aa16af3729faa') in 0.881435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.668077 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f1583a7f26374626c0b3b084e5d5a1') in 0.854147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.671674 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81c33e8a6fe6cfc0774104249f45e76') in 0.831870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.000678 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf32841d0c07498a2026c4c3c249afc') in 0.830435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.600640 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25aef30cb13c26293a2c386b27aec4c') in 0.828763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.666556 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4d761a3d4b431997b20ea0c6020c5a') in 0.885106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.455541 seconds.
+  path: Assets/MyTest/Advance/Odens.vfx
+  artifactKey: Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyTest/Advance/Odens.vfx using Guid(a1728780ab610de4db0204dc7b14ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c1239834dd933848a9765cdfa5d80d') in 1.289283 seconds 
